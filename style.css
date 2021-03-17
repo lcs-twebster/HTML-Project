@@ -52,8 +52,9 @@ p {
   margin: auto 10px;
 }
 .diagram-1 {
-  height: 400px;
-  margin: 5px 60px;
+  display: block;
+  margin: auto auto;
+  width: 70%;
   border: 2px double dimgrey;
 }
 .caption {
