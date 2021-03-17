@@ -18,12 +18,25 @@ h2 {
   text-align: center;
   color: darkcyan;
   font-family: Palatino, URW Palladio L, serif;
+  font-weight: bold;
   box-sizing: border-box;
+  position: relative;
+  height: 50px;
+  padding: 2%;
   background-color: antiquewhite;
+  border: 2px solid dimgrey;
 }
 
 nav {
   text-align: center;
+  display: block;
+  background-color: gainsboro;
+  margin: auto 20px;
+  padding: 10px;
+}
+
+a {
+  color: darkcyan;
 }
 
 p {
