@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(224, 255, 255, 0.247);
+  
+}
 header {
   background-color: antiquewhite;
   height: 100px;
@@ -10,7 +14,9 @@ h1 {
   font-family: Palatino, URW Palladio L, serif;
   box-sizing: border-box;
   position: relative;
-  top: 15px;
+  margin: auto;
+  top: 35px;
+  width: 60%;
   font-weight: bold;
 }
 
@@ -22,7 +28,8 @@ h2 {
   box-sizing: border-box;
   position: relative;
   height: 50px;
-  padding: 2%;
+  padding: 10px;
+  margin: 125px auto 0 auto;
   background-color: antiquewhite;
   border: 2px solid dimgrey;
 }
@@ -30,13 +37,19 @@ h2 {
 nav {
   text-align: center;
   display: block;
-  background-color: gainsboro;
-  margin: auto 20px;
+  width: 98%;
+  background-color: rgba(220, 220, 220, 0.836);
+  margin: auto;
   padding: 10px;
+  position: fixed;
+  z-index: 2;
+  border: 1px solid darkcyan;
 }
 
 a {
   color: darkcyan;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 p {
@@ -51,10 +64,10 @@ p {
   position: relative;
   margin: auto 10px;
 }
-.diagram-1 {
+.figure-1 {
   display: block;
   margin: auto auto;
-  width: 70%;
+  width: 50%;
   border: 2px double dimgrey;
 }
 .caption {
