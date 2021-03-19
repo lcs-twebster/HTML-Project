@@ -85,7 +85,7 @@ p {
 .label {
   color: darkcyan;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px; 
+  font-size: 18px; 
   text-align: center;
 }
 .top-button {
@@ -97,4 +97,12 @@ p {
   top: 163px;
   margin: auto 20px;
   z-index: 3;
+}
+li {
+  color: darkcyan;
+  font-family: Bookman, URW Bookman L, serif;
+  font-size: 20px;
+}
+ul {
+  list-style-type: inherit;
 }
