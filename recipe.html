@@ -16,18 +16,217 @@
       <br>
       <p>Fill in the form below and we'll send you a nourishing recipe based off of your preferences.</p>
 
+      <!-- Diet Type -->
+
       <label for= "diet" class= "label">What is your diet? ie. Keto, Paleo, vegetarian, pescetarian, no restrictions, ect.</label>
+
       <br>
+
       <input type= "text" name= "diet" class= "text-input">
 
       <br>
       <br>
 
+      <!-- Allergies -->
+
       <label for= "allergies" class= "label">List any food allergies.</label>
       <br>
       <input type= "text" name= "allergies" class= "text-input">
 
+      <br>
+      <br>
 
+      <!-- Type of Meal -->
+
+      <label for= "meal-type" class= "label">Choose your type of meal</label>
+
+      <br>
+
+      <input type= "radio" name= "meal-type" value= "breakfast" class= "radio-input">Breakfast</input>
+
+      <br>
+
+      <input type= "radio" name= "meal-type" value= "lunch" class= "radio-input">Lunch</input>
+
+      <br>
+
+      <input type= "radio" name= "meal-type" value= "dinner" class= "radio-input">Dinner</input>
+
+      <br>
+
+      <input type= "radio" name= "meal-type" value= "snack" class= "radio-input">Snack</input>
+
+      <br>
+      <br>
+
+      <!-- Prefered Leafy Veggie -->
+
+      <label for= "leafy-green" class= "label">Choose your prefered leafy greens</label>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "romaine" class= "checkbox-input">Romaine</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "butter-lettuce" class= "checkbox-input">Butter Lettuce</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "mixed-lettuce" class= "checkbox-input">Mixed Garden Lettuce</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "swiss-chard" class= "checkbox-input">Swiss Chard</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "kale" class= "checkbox-input">Kale</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "arugula" class= "checkbox-input">Arugula</input>
+
+      <br>
+
+      <input type= "checkbox" name= "leafy-green" value= "spinach" class= "checkbox-input">Spinach</input>
+
+      <br>
+      <br>
+
+      <!-- Cruciferous Veggie -->
+
+      <label for= "cruciferous" class= "label">Choose your prefered cruciferous veggie</label>
+
+      <br>
+
+      <input type= "radio" name= "cruciferous" value= "cabbage" class= "radio-input">Cabbage</input>
+
+      <br>
+
+      <input type= "radio" name= "cruciferous" value= "broccoli" class= "radio-input">Broccoli</input>
+
+      <br>
+
+      <input type= "radio" name= "cruciferous" value= "cauliflower" class= "radio-input">Cauliflower</input>
+
+      <br>
+
+      <input type= "radio" name= "cruciferous" value= "brussels-sprouts" class= "radio-input">Brussels sprouts</input>
+
+      <br>
+
+      <input type= "radio" name= "cruciferous" value= "none" class= "radio-input">None</input>
+
+      <br>
+      <br>
+
+      <!-- Veggies -->
+
+      <label for= "veggies" class= "label">Choose your prefered veggies</label>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "tomato" class= "checkbox-input">Tomato</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "bell-pepper" class= "checkbox-input">Bell Pepper</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "carrot" class= "checkbox-input">Carrot</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "celery" class= "checkbox-input">Celery</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "sweet-peas" class= "checkbox-input">Sweet Peas</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "sweet-potatoes" class= "checkbox-input">Sweet Potatoes</input>
+
+      <br>
+
+      <input type= "checkbox" name= "veggies" value= "parsnips" class= "checkbox-input">Parsnips</input>
+
+      <br>
+      <br>
+
+      <!-- Fruits -->
+
+      <label for= "fruit" class= "label">Select your prefered fruit</label>
+
+      <br>
+
+      <input name= "fruit" list= "fruit">
+      <datalist id= "fruit">
+        <option value= "mango"/>
+        <option value= "peaches"/>
+        <option value= "apples"/>
+        <option value= "oranges"/>
+        <option value= "grapefruit"/>
+        <option value= "cherries"/>
+        <option value= "blueberries"/>
+        <option value= "raspberries"/>
+        <option value= "blackberries"/>
+        <option value= "strawberries"/>
+        <option value= "goldenberries"/>
+      </datalist>
+
+      <br>
+      <br>
+
+      <!-- Protein -->
+
+      <label for= "protein" class= "label">Slelct your prefered type of protein</label>
+      <br>
+
+      <input type= "radio" value= "plant-based" name= "protein" class= "radio-input">Plant based (ie. tofu, beans, chickpeas, nuts, ect.)</input>
+
+      <br>
+
+      <input type= "radio" value= "chicken-breast" name= "protein" class= "radio-input">Chicken Breast</input>
+
+      <br>
+
+      <input type= "radio" value= "salmon" name= "protein" class= "radio-input">Salmon</input>
+
+      <br>
+
+      <input type= "radio" value= "white-fish" name= "protein" class= "radio-input">White fish (ie. trout, tilapia, haddock, ect.)</input>
+
+      <br>
+
+      <input type= "radio" value= "grass-fed-beef" name= "protein" class= "radio-input">Grass fed beef</input>
+
+      <br>
+      <br>
+
+      <!-- Servings -->
+
+      <label for= "servings" class= "label">Select a number of servings</label>
+
+      <br>
+
+      <input type= "range" name= "servings" min= "1" max= "4">
+
+      <br>
+      <br>
+
+      <!-- email -->
+
+      <label for= "email" class= "label">Please enter your email</label>
+      <br>
+      <input type= "text" name= "email" class= "text-input">
+      
+      <!-- submit -->
+      
+      <br>
+      <br>
       <br>
       <br>
       <input type= "submit" value= "submit">
