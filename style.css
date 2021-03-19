@@ -29,7 +29,7 @@ h2 {
   position: relative;
   height: 50px;
   padding: 10px;
-  margin: 125px auto 0 auto;
+  margin: 25px auto 0 auto;
   background-color: antiquewhite;
   border: 2px solid dimgrey;
 }
@@ -41,7 +41,7 @@ nav {
   background-color: rgba(220, 220, 220, 0.836);
   margin: auto;
   padding: 10px;
-  position: fixed;
+  position: relative;
   z-index: 2;
   border: 1px solid darkcyan;
 }
@@ -74,4 +74,27 @@ p {
   color: darkcyan;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+}
+.mediaLink {
+  font-size: 12px;
+}
+.text-input {
+  margin: auto;
+  width: 50%;
+}
+.label {
+  color: darkcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px; 
+  text-align: center;
+}
+.top-button {
+  font-size: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  position: fixed;
+  width: 5%;
+  top: 175px;
+  margin: auto 20px;
+  z-index: 3;
 }
