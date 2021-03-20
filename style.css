@@ -106,3 +106,14 @@ li {
 ul {
   list-style-type: inherit;
 }
+.text-input {
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  width: 25%;
+}
+input {
+  color: dimgrey;
+  font-family: Bookman, URW Bookman L, serif;
+  font-size: 18px;
+}
