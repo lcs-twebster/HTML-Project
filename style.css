@@ -117,7 +117,7 @@ ul {
 input {
   color: dimgrey;
   font-family: Bookman, URW Bookman L, serif;
-  font-size: 18px;
+  font-size: 20px;
   opacity: 100%;
 }
 video {
@@ -129,5 +129,11 @@ form {
   width: 65%;
 }
 .form {
-  background-image: url("https://image.freepik.com/free-photo/gray-color-cotton-texture-surface-background_74190-13729.jpg");
+  background-image: url("https://image.freepik.com/free-vector/set-sliced-fruits_1308-15753.jpg"); 
+  background-blend-mode:  color-burn;
+  background-position-x: center; 
+  background-position-y: center;
+}
+.p-form {
+  background-color: rgba(0, 139, 139, 0.479);
 }
