@@ -78,15 +78,14 @@ p {
 .mediaLink {
   font-size: 12px;
 }
-.text-input {
-  margin: auto;
-  width: 50%;
-}
 .label {
   color: darkcyan;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px; 
   text-align: center;
+  opacity: 100%;
+  background-color: antiquewhite;
+  border: 1px solid dimgrey;
 }
 .top-button {
   font-size: 10px;
@@ -102,18 +101,33 @@ li {
   color: darkcyan;
   font-family: Bookman, URW Bookman L, serif;
   font-size: 20px;
+  opacity: 100%;
 }
 ul {
   list-style-type: inherit;
+  opacity: 100%;
 }
 .text-input {
   box-sizing: border-box;
   position: relative;
   margin: auto;
-  width: 25%;
+  width: 35%;
+  opacity: 100%;
 }
 input {
   color: dimgrey;
   font-family: Bookman, URW Bookman L, serif;
   font-size: 18px;
+  opacity: 100%;
+}
+video {
+  width: 96%;
+  margin: auto;
+}
+form {
+  margin: auto;
+  width: 65%;
+}
+.form {
+  background-image: url("https://image.freepik.com/free-photo/gray-color-cotton-texture-surface-background_74190-13729.jpg");
 }
