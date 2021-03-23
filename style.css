@@ -1,7 +1,9 @@
+/* Basic Page Structure */
 body {
   background-color: rgba(224, 255, 255, 0.247);
   
 }
+
 header {
   background-color: antiquewhite;
   height: 100px;
@@ -34,6 +36,38 @@ h2 {
   border: 2px solid dimgrey;
 }
 
+p {
+  text-align: center;
+  color: dimgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid darkcyan;
+  font-size: 18px;
+}
+
+.content {
+  box-sizing: border-box;
+  position: relative;
+  margin: auto 10px;
+}
+
+.mediaLink {
+  font-size: 12px;
+}
+
+li {
+  color: darkcyan;
+  font-family: Bookman, URW Bookman L, serif;
+  font-size: 25px;
+  opacity: 100%;
+  margin: auto auto auto 10%;
+}
+
+ul {
+  list-style-type: inherit;
+  opacity: 100%;
+}
+
+/* Nav menu and back to top button */
 nav {
   text-align: center;
   display: block;
@@ -52,18 +86,18 @@ a {
   font-size: 16px;
 }
 
-p {
+.top-button {
+  font-size: 10px;
   text-align: center;
-  color: dimgrey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 2px solid darkcyan;
-  font-size: 18px;
-}
-.content {
   box-sizing: border-box;
-  position: relative;
-  margin: auto 10px;
+  position: fixed;
+  width: 5%;
+  top: 163px;
+  margin: auto 20px;
+  z-index: 3;
 }
+
+/* Images and Captions */
 .figure-1 {
   display: block;
   margin: auto auto;
@@ -75,9 +109,13 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-.mediaLink {
-  font-size: 12px;
+
+video {
+  width: 96%;
+  margin: auto;
 }
+
+/* Form Layout */
 .label {
   color: darkcyan;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -87,26 +125,7 @@ p {
   background-color: antiquewhite;
   border: 1px solid dimgrey;
 }
-.top-button {
-  font-size: 10px;
-  text-align: center;
-  box-sizing: border-box;
-  position: fixed;
-  width: 5%;
-  top: 163px;
-  margin: auto 20px;
-  z-index: 3;
-}
-li {
-  color: darkcyan;
-  font-family: Bookman, URW Bookman L, serif;
-  font-size: 20px;
-  opacity: 100%;
-}
-ul {
-  list-style-type: inherit;
-  opacity: 100%;
-}
+
 .text-input {
   box-sizing: border-box;
   position: relative;
@@ -114,26 +133,26 @@ ul {
   width: 35%;
   opacity: 100%;
 }
+
 input {
   color: dimgrey;
   font-family: Bookman, URW Bookman L, serif;
   font-size: 20px;
   opacity: 100%;
 }
-video {
-  width: 96%;
-  margin: auto;
-}
+
 form {
   margin: auto;
   width: 65%;
 }
+
 .form {
   background-image: url("https://image.freepik.com/free-vector/set-sliced-fruits_1308-15753.jpg"); 
   background-blend-mode:  color-burn;
   background-position-x: center; 
   background-position-y: center;
 }
+
 .p-form {
   background-color: rgba(0, 139, 139, 0.479);
 }
