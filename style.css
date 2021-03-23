@@ -110,6 +110,9 @@ a {
   text-align: center;
 }
 
+.iframe-2 {
+  margin: auto auto auto 25%;
+}
 video {
   width: 96%;
   margin: auto;
