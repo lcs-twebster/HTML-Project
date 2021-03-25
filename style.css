@@ -102,6 +102,16 @@ a {
   margin: auto 20px;
   z-index: 3;
 }
+.home-button {
+  font-size: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  position: fixed;
+  width: 3%;
+  top: 50px;
+  margin: auto 1325px;
+  z-index: 3;
+}
 
 /* Images and Captions */
 .figure-1 {
