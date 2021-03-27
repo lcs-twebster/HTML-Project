@@ -103,13 +103,13 @@ a {
   z-index: 3;
 }
 .home-button {
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
   box-sizing: border-box;
   position: fixed;
   width: 3%;
   top: 50px;
-  margin: auto 1325px;
+  margin: auto 20px;
   z-index: 3;
 }
 
